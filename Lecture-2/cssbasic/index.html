@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    
+<!-- internal way2 which is better than inline styling-->
+    <!--<style>
+        section{
+            border: 5px solid blueviolet;
+        }
+        h1{
+            background-color: palevioletred;
+        }
+        p
+        {
+background-color: cornflowerblue;
+text-decoration: line-through;
+        }
+    </style> -->
+</head>
+<body>
+<!--inline css way1 of styling-->
+<h1 style="font-family: cursive;">hi i am your h1.</h1>
+<div style="color: red; background-color: greenyellow; font-size: 54px; border: 20px solid black;">hi my name is kiki. </div>
+</body>
+</html>
+<!--disadvantage of inline is that chote se change ko diff places par manually baar baar update karna padega-->
+
+<!-- internal way2 which is better than inline styling-->
+<section>
+    <h1 class="kim" >hello from kiki</h1>
+    <h1 class="kylie">hii there.</h1>
+    <p id="kiki">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Odit aliquam sint dolorem suscipit harum alias.</p>
+    <p id="kiki2">Lorem ipsum dolor sit amet consectetur.</p>
+</section>
+
+<!-- external css  way3 which is the best way to styling as Seperation of Concern hota hai ismein i.e. files alag hongi .html and .css ki -->
+
+<!-- sabse zaada browser pr preference hai inline css styling ka cus same element mein jo colour inline styling mein denge wahi show hoga browser pe
+ya website pe rather than the colours which are passed in internal and external styling -->
+
+<!-- similarily, internal ka prefernce zaada deta hai external se-->
+<!--selectors are basically of two categories 1st is basic selector and second is advanced selector, they are used to style different elements seperately-->
+<!--selectors: element selector, id seletor, class, attribute, universal-->
+<!-- you will never give one id to more than one element, altho u can gove but dont do that as a good programming practise-->
+<!-- id ek se zaada elements par nhi hogi while class selector multiple elements par-->
+<!--  -->
+
+
+
